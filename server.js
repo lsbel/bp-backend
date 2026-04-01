@@ -1,4 +1,6 @@
 import express from "express";
+import cors from "cors"; // 👈 AGREGA ESTO
+import express from "express";
 
 const app = express();
 app.use(express.json());
